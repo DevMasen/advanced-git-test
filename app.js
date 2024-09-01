@@ -13,3 +13,7 @@ const fromMainBranch = function(){
 const future = function(){
     return 'Fucked up ';
 }
+
+const stashVar4 = 14;
+const stashVar5 = 15;
+const stashVar6 = 16;
