@@ -9,9 +9,7 @@ const useVar = function () {
 const fromMainBranch = function () {
 	return false;
 };
-const fromMainBranch = function () {
-	return false;
-};
+
 // Some code for future use
 const future = function () {
 	return "Fucked up ";
