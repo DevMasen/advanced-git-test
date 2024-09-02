@@ -12,4 +12,4 @@
 1. `git stash clear` : delete all stash list 
 1. `git blame` : show blame configs
 1. `git blame <fileName>` : for findout WHO wrote codes in a file.
-1. `git blame <fileName> -l <startLine>,<endLine>` : show WHO wrote codes in a file in specific lines.
+1. `git blame <fileName> -L <startLine>,<endLine>` : show WHO wrote codes in a file in specific lines.
