@@ -30,3 +30,4 @@
 1. `git diff <tagContent-1> <tagContent-2>` : compare changes in two commit with tags \<tagContent-1> and \<tagContent-2>
 1. `git push <remote> <tagContent>` : send tag with \<tagContent> to github repo with remote \<remote> (mostly 'origin')
 1. `git push <remote> --tag` : send all tags to github repo with remote \<remote> (mostly 'origin')
+1. `git rebase <branchName>` : merge the \<branchName> with current branch without showing separation in branches
