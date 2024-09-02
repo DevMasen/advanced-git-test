@@ -32,3 +32,5 @@
 1. `git push <remote> --tag` : send all tags to github repo with remote \<remote> (mostly 'origin')
 1. `git rebase <branchName>` : merge the \<branchName> with current branch without showing separation in branches
 1. `git rebase -i HEAD~<N>` : change the last \<N> commits history
+1. `git rebase --continue` : continue rebaseing after solving conflicts
+1. `git rebase --abort` : cancel rebasing 
