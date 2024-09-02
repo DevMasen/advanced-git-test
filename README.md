@@ -31,3 +31,4 @@
 1. `git push <remote> <tagContent>` : send tag with \<tagContent> to github repo with remote \<remote> (mostly 'origin')
 1. `git push <remote> --tag` : send all tags to github repo with remote \<remote> (mostly 'origin')
 1. `git rebase <branchName>` : merge the \<branchName> with current branch without showing separation in branches
+1. `git rebase -i HEAD~<N>` : change the last \<N> commits history
