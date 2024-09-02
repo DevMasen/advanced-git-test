@@ -26,3 +26,7 @@
 1. `git tag -f <tagContent> <commitId>` : force set a tag for a commit
 1. `git tag -l` : show tags list
 1. `git tag -l '<formatString>'` : show tags through filter added by \<formatString>
+1. `git checkout <tagContent>` : change head to a commit with a tag with \<tagContent>
+1. `git diff <tagContent-1> <tagContent-2>` : compare changes in two commit with tags \<tagContent-1> and \<tagContent-2>
+1. `git push <remote> <tagContent>` : send tag with \<tagContent> to github repo with remote \<remote> (mostly 'origin')
+1. `git push <remote> --tag` : send all tags to github repo with remote \<remote> (mostly 'origin')
