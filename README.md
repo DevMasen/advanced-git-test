@@ -13,3 +13,9 @@
 1. `git blame` : show blame configs
 1. `git blame <fileName>` : for findout WHO wrote codes in a file.
 1. `git blame <fileName> -L <startLine>,<endLine>` : show WHO wrote codes in a file in specific lines.
+1. `git bisect start` : start debuging with git by binary search
+1. `git bisect good <commitId>` : tell git that in which commit the project went good
+1. `git bisect bad` : tell git in current search level project went bad
+1. `git bisect good` : tell git in current search level project went good
+1. `git bisect reset` : finish the search operation
+
