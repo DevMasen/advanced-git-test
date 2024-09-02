@@ -10,3 +10,6 @@
 1. `git stash apply [stash@{<stashId>}]` : take back the last stash to WD without delete the stash
 1. `git stash drop stash@{<stashId>}` : delete a stash
 1. `git stash clear` : delete all stash list 
+1. `git blame` : show blame configs
+1. `git blame <fileName>` : for findout WHO wrote codes in a file.
+1. `git blame <fileName> -l <startLine>,<endLine>` : show WHO wrote codes in a file in specific lines.
