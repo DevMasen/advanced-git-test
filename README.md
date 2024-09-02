@@ -18,4 +18,11 @@
 1. `git bisect bad` : tell git in current search level project went bad
 1. `git bisect good` : tell git in current search level project went good
 1. `git bisect reset` : finish the search operation
-
+1. `git tag` : show tags list
+1. `git tag <tagContent>` : add a tag with \<tagContent> for last commit
+1. `git tag <tagContent> <commitId>` : add a tag with \<tagContent> for commit with \<commitId>
+1. `git show <tagContent>` : show changes in commit with tag \<tagContent>
+1. `git tag -d <tagContent>` : delete a tag with \<tagContent>
+1. `git tag -f <tagContent> <commitId>` : force set a tag for a commit
+1. `git tag -l` : show tags list
+1. `git tag -l '<formatString>'` : show tags through filter added by \<formatString>
