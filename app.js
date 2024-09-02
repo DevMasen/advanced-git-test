@@ -26,3 +26,4 @@ const stashVar6 = 16;
 //!-----------------stash test------------------
 
 //some changes for test rebase cammand
+//some more changes for test rebase command
