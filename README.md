@@ -1,3 +1,4 @@
+# Advanced git commands 🦾
 ## Commands : 
 1. `git commit --amend` : for changing the last commit with new codes in WD
 1. `git stash` : save codes in WD
